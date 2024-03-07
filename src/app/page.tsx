@@ -25,17 +25,17 @@ export default function Home() {
     resolver: zodResolver(linkedInSchema),
   });
 
-  const onSubmitEmail = (data) => {
+  const onSubmitEmail = (data: any) => {
     console.log(data);
   };
 
-  const onSubmitLinkedIn = (data) => {
+  const onSubmitLinkedIn = (data: any) => {
     console.log(data);
   };
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <p className="title font-bold m-10" style={{ fontSize: '5rem' }}>What's up my jits!</p>
+      <p className="title font-bold m-10" style={{ fontSize: '5rem' }}>Whats up my jits!</p>
       <p style={{ fontSize: '3rem' }}>Welcome to my site</p>
       <p style={{ fontSize: '1rem', fontStyle: 'italic', color: 'gray' }}>please put in your email below</p>
       
