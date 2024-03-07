@@ -48,7 +48,7 @@ export default function Home() {
         {emailErrors.email && <p>Invalid email address</p>}
         <input 
           type="submit" 
-          value="submit ur email to make me happy 'rawr Xd'"
+          value="submit ur email to make me happy 'rawr'"
           className="p-2 rounded-lg transform transition-transform duration-200 hover:-translate-y-1" 
           style={{ backgroundColor: '#86BCE4', transition: 'all 0.5s ease', cursor: 'pointer' }}
         />
