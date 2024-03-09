@@ -69,7 +69,6 @@ export default function Home() {
           <p className="text-7xl text-center text-white m-0 leading-none">Designer</p>
           <p className="text-7xl text-center text-white m-0 leading-none">Builder</p>
           <p className="text-7xl text-center text-white m-0 leading-none">Munch</p>
-          <p className="text-7xl text-center text-white m-0 leading-none">Developer</p>
         </div>
       </div>
 
